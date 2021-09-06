@@ -1,0 +1,3 @@
+[] benerin error di setTimeout dalam popCircle() line 111
+[] tambahin sound
+[] tambahin sistem high score

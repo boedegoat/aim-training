@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.iconmonstr.com/1.3.0/css/iconmonstr-iconic-font.min.css
+    "
+    />
+    <script src="main.js" defer></script>
+    <title>Aim Training</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="info">
+        <h1 class="score-bar"><i class="im im-target"></i> <span class="score">0</span></h1>
+        <h1 class="health-bar"><i class="im im-heart small"></i> <span class="health">0</span></h1>
+        <h1 class="time-bar"></i><i class="im im-timer small"></i> <span class="time">0</span></h1>
+      </div>
+      <div class="board"></div>
+      <div class="gameover modal">
+        <div class="gameover-content">
+          <h1 class="header">GAMEOVER</h1>
+          <h2 class="highscore"></h2>
+          <p><i class="im im-target small"></i>Score :&nbsp;<span class="score">0</span></p>
+          <p><i class="im im-timer small"></i>Time :&nbsp;<span class="time">0</span></p>
+          <button class="restart-btn">Restart</button>
+        </div>
+      </div>
+      <div class="setting modal">
+        <div class="setting-body">
+          <h1 class="setting-header">Settings</h1>
+          <div class="setting-item">
+            <input type="checkbox" class="switcher" id="mode-conehead">
+            <h3>Mode Conehead</h3>
+          </div>
+        </div>
+      </div>
+    </div>  
+    <nav>
+      <p class="logo">Aim Training</p>
+      <button class="help-btn"><i class="im im-question"></i></button>
+      <button class="start-btn"><i class="im im-play"></i></button>
+      <button class="settings-btn"><i class="im im-gear"></i></button>
+    </nav>
+
+  </body>
+</html>
