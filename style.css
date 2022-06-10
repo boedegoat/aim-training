@@ -273,3 +273,9 @@ nav button {
   gap: 10px;
   padding: 1em 0;
 }
+
+.highscore-info {
+    padding: 0.1em 1em;
+    background: #252525;
+    color: #c6c6c6;
+}
