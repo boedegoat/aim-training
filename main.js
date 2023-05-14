@@ -170,7 +170,7 @@ restartBtn.addEventListener('click', function () {
     gameOverModal.classList.remove('active')
 })
 
-settingsBtn.onclick = () => document.querySelector('.setting').classList.add('active')
-helpBtn.onclick = () => alert('menu help blom jadi')
+// settingsBtn.onclick = () => document.querySelector('.setting').classList.add('active')
+// helpBtn.onclick = () => alert('menu help blom jadi')
 
 reset()
